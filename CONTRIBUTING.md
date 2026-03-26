@@ -29,6 +29,7 @@ Docker or Kubernetes cluster access (for testing chart installations)
 ## Workflow
 
 1. Fork this repository
+1. After cloning your fork, run `pre-commit install` once to install the local Git hook from `.pre-commit-config.yaml` so the configured checks run before each commit. You can also run `pre-commit run --all-files` manually to validate the current tree.
 1. Develop, and test your changes
 1. Submit a pull request
 
